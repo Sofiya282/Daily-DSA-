@@ -3,7 +3,7 @@ class Solution {
         for(int i = 0; i < mat.length; i++){
             if(i != row && mat[i][col] == 1){
                 return 0;
-            }
+            }//hello
         }
         for(int j = 0; j < mat[row].length; j++){
             if(j != col && mat[row][j] == 1){
